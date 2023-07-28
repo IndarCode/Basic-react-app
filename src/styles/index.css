@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+button { 
+  cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo {
+  max-width: 10vw;
+}
+.container * {
+  color: #fff;
+}
+.block {
+  margin: 3vw auto;
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+}
+h4 {
+  font-size: 25px;
+}
+
